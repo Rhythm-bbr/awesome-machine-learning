@@ -11,6 +11,7 @@ import urllib
 import codecs
 import random
 import numpy as np
+import pandas as pd
 
 text_file = codecs.open("Packages.txt", encoding='utf-8', mode="w")
 d = pq(url='http://cran.r-project.org/web/views/MachineLearning.html',
